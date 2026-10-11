@@ -1,0 +1,9 @@
+# Apple Silicon / macOS legacy MLX LoRA example.
+# Historical versions were not recorded; test compatibility on your Mac.
+mlx
+numpy
+transformers
+huggingface-hub
+sentencepiece
+jupyterlab
+ipykernel
