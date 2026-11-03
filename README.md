@@ -129,7 +129,7 @@ The command writes to `adapters_retrained.npz` to **avoid overwriting the suppli
 - **No trained classifier:** An earlier exploratory classifier was unfinished and is not included.
 - **Limited evaluation:** The saved example outputs are not a quantitative held-out benchmark. Training logs and a verified exact-match score are not available.
 - **Narrow data coverage:** The current dataset contains 98 examples within one predefined command grammar.
-- **Legacy runtime:** Reproduction requires compatibility with the older Apple MLX scripts; the notebook has not been rerun on Apple Silicon as part of this GitHub cleanup.
+
 
 Next steps include a stronger held-out command-generation evaluation, expanding the command grammar and datasets, adding argument validation, and testing the approach against a safely isolated network-management environment.
 
