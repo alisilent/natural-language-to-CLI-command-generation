@@ -123,7 +123,7 @@ python scripts/lora.py \
 
 The command writes to `adapters_retrained.npz` to **avoid overwriting the supplied checkpoint**. The test option reports token-level loss/perplexity; **it does not automatically compute exact-match command-generation accuracy**. The historical runtime has not been independently reproduced or benchmarked during repository preparation.
 
-## Limitations and next steps
+## Limitation and next step
 
 - **No live CLI validation:** The system generates text commands only; their correctness and safety have not been independently verified.
 - **No trained classifier:** An earlier exploratory classifier was unfinished and is not included.
